@@ -1,0 +1,71 @@
+body{
+    background:white;
+    overflow: hidden;
+}
+.navBar {
+    background-color: white;
+    width: 1215px;
+    height: 150px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    position: absolute;
+}
+.navBar ul{
+    list-style: none;
+    display: flex;
+    margin: 30px;
+    float: left;
+    margin-top: -40px;
+}
+.navBar ul li{
+    margin: 100px;
+    margin-left: 10px;
+    color: black;
+}
+.navBar ul li:hover{
+    background: #4E989F;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+
+}
+.half-circle {
+    content: "";
+	position: absolute;
+	left: 50rem;
+	width: 1150px;
+	height: 100%;
+	background: #4E989F;
+	border-radius: 760px 0 0 760px
+
+  }
+
+  .FURNI{
+    width: 250px;
+    height: 100%;
+    transform: rotate(90deg);
+    float:right;
+    font-size: 352px;
+    opacity: 10%;
+    margin-top: -160px;
+  }
+
+  .sofa1{
+      position: relative;
+      top: 13rem;
+      left: 4rem;
+      width: 470px;
+      height: 600px;
+  }
+  .leftContent{
+      float: left;
+      color: black;
+      left: -2rem;
+  }
